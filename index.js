@@ -22,9 +22,10 @@ function deepestChild() {
   var len = deeper.length;
   for (let i = 0; i < deeper.length; i++) {
     while (deeper.length > i) {
-    var deepest = deeper[i]
+    var deepest = deeper[i];
+    i++;
     }
-    return deepest
+    return deepest;
   
   
   
